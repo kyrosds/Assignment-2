@@ -1,0 +1,128 @@
+body {
+  font-family: Lora, 'Times New Roman', serif !important;
+  font-size: 20px !important;
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+p a {
+  color: #333;
+  text-decoration: underline;
+}
+
+blockquote {
+  color: #777;
+  font-style: italic;
+}
+
+hr.small {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: #fff;
+}
+
+.navbar-custom {
+  position: absolute;
+  background: transparent;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  font-weight: 800;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-custom .nav li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.intro-header {
+  background: center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+}
+
+.intro-header .post-heading {
+  padding: 100px 0 50px;
+  color: #fff;
+  margin: 10px 0 30px;
+  font-weight: 600;
+  line-height: 1.1;
+  display: block;
+}
+
+.intro-header .post-heading h1 {
+  font-size: 55px;
+  font-weight: 800;
+}
+
+.intro-header .post-heading h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.intro-header .post-heading p {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.section-heading {
+  font-size: 36px;
+  margin-top: 60px;
+  font-weight: 700;
+}
+
+blockquote {
+  color: #777;
+  font-style: italic;
+}
+
+.caption {
+  font-size: 14px;
+  padding: 10px;
+  font-style: italic;
+  margin: 0;
+  display: block;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+}
+
+footer {
+  padding: 50px 0 65px
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+footer .list-inline a {
+  color: #333;
+}
+
+footer .list-inline a:hover {
+  color: #0085A1;
+  text-decoration: none;
+}
+
+footer .copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
